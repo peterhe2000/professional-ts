@@ -12,7 +12,6 @@ import SelectedTeam from './components/SelectedTeam';
 import TeamSelector from './components/TeamSelector';
 
 const { useState } = React;
-
 const App = () => {
   const [teams, setTeams] = useState();
 
