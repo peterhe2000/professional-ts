@@ -15,6 +15,11 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "stripInternal": true,
+//    "traceResolution": true, /* enable debugging tsc */
+    "baseUrl": ".",
+    "paths": {
+      "*": ["types/*"] /* local typescript type override */
+    }
   },
   "include": ["src"]
 }
