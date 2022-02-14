@@ -3,7 +3,7 @@ type Address = [
   city: string
 ]
 
-function printAddress(...address: Address)  {}
+function printAddress(...address: Address)  {console.log(...address)}
 printAddress(123, '123')
 
 type Corner = `${ 'top' | 'bottom'}-${ 'left' | 'right'}`;
@@ -27,4 +27,4 @@ try {
 // add "checkJs": true // this will check type for Js as well
 
 // This is referring a type from another module without saying I actually need that value.
-import type { useAsyncDataEffect } from '../src/utils/api';
+// import type { useAsyncDataEffect } from '../src/utils/api';
